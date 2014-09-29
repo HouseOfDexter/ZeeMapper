@@ -1,0 +1,29 @@
+object frmRename: TfrmRename
+  Left = 1006
+  Top = 578
+  BorderIcons = []
+  BorderStyle = bsSingle
+  ClientHeight = 22
+  ClientWidth = 131
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnKeyDown = FormKeyDown
+  OnKeyPress = FormKeyPress
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edtMap: TEdit
+    Left = 0
+    Top = -1
+    Width = 129
+    Height = 21
+    TabOrder = 0
+  end
+end
